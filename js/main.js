@@ -1,34 +1,25 @@
 
-var numeri = [];
+for (var i = 1; i <= 100; i++){
 
-i = 1;
+    if (i % 5 === 0 && i % 3 === 0){
+        console.log('FizzBuzz');
 
-//GENERATORE NUEMRI
-while ( i < 101){
-    numeri += i + ',' ;
-    i++;
-    
-    /*if( numeri % 3 == 0){
-        numeri = 'Fizz';
-    
-    } else if (numeri % 3 == 0 && numeri % 5 == 0){
-        numeri = 'FizzBuzz';
-    
-    } */ 
-    
-}
-console.log(numeri);
+    } else if (i % 5 === 0){
+        console.log('Buzz');
 
+    } else if (i % 3 === 0){
+        console.log('Fizz');
 
-/*while ( i % 3 == 0 && i % 5 == 0){
-    numeri = FizzBuzz;
+    } else {
+        console.log(i);
+    }
+     
 }
 
-console.log(numeri);*/
+document.getElementById('stampa').innerHTML = i;
 
-/*if (numeri % 3 == 0 && numeri % 5 == 0){
-    numeri = 'FizzBuzz';
-}
 
-console.log(numeri);*/
+
+
+
 
