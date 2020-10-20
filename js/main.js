@@ -16,7 +16,6 @@ for (var i = 1; i <= 100; i++){
      
 }
 
-document.getElementById('stampa').innerHTML = i;
 
 
 
